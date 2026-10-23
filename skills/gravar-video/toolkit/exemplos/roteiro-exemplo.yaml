@@ -1,0 +1,30 @@
+# Modelo de roteiro. Troque base/seletores pelo sistema real. modo: narrado | silencioso
+titulo: Painel de exemplo
+base: http://127.0.0.1:8765/index.html
+modo: narrado
+# aquecer: true            # 1ª carga de SPA com permissão limitada costuma falhar: aquece sem gravar
+# sessao: .auth/session.json   # storageState salvo pelo login do usuário (nunca digite senha)
+# prontoQuando: "text=Projetos"  # espera este seletor em vez de networkidle
+pronuncia:                 # só deste roteiro; soma ao dicionário do kit
+  Alfa: Álfa
+capitulos:
+  - num: 1
+    titulo: Criar um projeto
+    sub: Passo a passo no painel
+    passos:
+      - say: "Esta é a lista de projetos. O painel está na versão 9.0.3 e o servidor responde no IP 192.0.2.10."
+        balao: "Lista de projetos existentes"
+        alvo: "#lista"
+        pos: abaixo
+      - say: "Digite o nome do novo projeto neste campo."
+        balao: "Campo de nome"
+        alvo: "#nome"
+        pos: abaixo
+        depois:
+          - type: ["#nome", "Projeto Beta", 90]
+      - say: "Agora clique em criar projeto, e a VM do projeto aparece na lista."
+        balao: "Botão Criar projeto"
+        alvo: "#criar"
+        pos: abaixo
+        depois:
+          - click: "#criar"

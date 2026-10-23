@@ -1,0 +1,10 @@
+{
+  "VM": "vê ême", "VMs": "vê êmes", "CPU": "cê pê u", "RAM": "rám", "GB": "gigabytes", "MB": "megabytes", "TB": "terabytes",
+  "IP": "ai pê", "IPs": "ai pês", "SSH": "ésse ésse agá", "DNS": "dê ene ésse", "API": "á pê i", "URL": "u érre éle",
+  "HTTP": "agá tê tê pê", "HTTPS": "agá tê tê pê ésse", "TLS": "tê éle ésse", "SSL": "ésse ésse éle", "JWT": "jota dáblio tê",
+  "CI": "cê i", "CD": "cê dê", "CI/CD": "cê i cê dê", "PDF": "pê dê éfe", "ID": "i dê", "UI": "u i", "QA": "quê á",
+  "CNJ": "cê ene jota", "OAB": "ó á bê", "CPF": "cê pê éfe", "CNPJ": "cê ene pê jota", "LAN": "lan", "VPN": "vê pê ene",
+  "SQL": "ésse quê éle", "JSON": "jêison", "YAML": "iámel", "SSD": "ésse ésse dê", "NVMe": "ene vê ême i",
+  "Proxmox": "Próksmox", "Docker": "Dóquer", "Kubernetes": "Kubernêtis", "Traefik": "Tráfic", "GitHub": "Guit rábi",
+  "ok": "ôquei", "OK": "ôquei"
+}

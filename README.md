@@ -5,6 +5,7 @@ Skills para o [Claude Code](https://claude.com/claude-code) que eu uso no dia a 
 | Skill | O que faz |
 |---|---|
 | [`gravar-video`](skills/gravar-video/SKILL.md) | Planeja, grava, verifica e entrega vídeos de **demo** ou **tutorial** de qualquer sistema web, com ou sem narração em português |
+| [`fluxo-dev`](skills/fluxo-dev/SKILL.md) | Fluxo de desenvolvimento padrão: branch com id da task, commits `[ID][TIPO]`, rebase, PR e versionamento SemVer, com rigor ajustável ao tamanho do time |
 
 ## Instalar uma skill
 
@@ -13,6 +14,7 @@ Copie a pasta da skill para `~/.claude/skills/` (ou para `.claude/skills/` dentr
 ```bash
 git clone https://github.com/michallves/michallves-skills.git
 cp -r michallves-skills/skills/gravar-video ~/.claude/skills/
+cp -r michallves-skills/skills/fluxo-dev ~/.claude/skills/
 ```
 
 Na próxima sessão do Claude Code, a skill aparece na lista e é usada quando o pedido combina com a descrição
